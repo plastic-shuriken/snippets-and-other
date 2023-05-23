@@ -1,0 +1,17 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.input-container {
+  display: flex;
+}
+
+input {
+  margin: 56px auto 0;
+}
+
+input::placeholder {
+  color: blue;
+  opacity: 0.5;
+}
