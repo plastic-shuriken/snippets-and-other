@@ -1,3 +1,4 @@
+- Добавлен пример использования `structuredClone`. Источник: _structured-clone_.
 - Добавлена разметка, стилизация и логика для сниппета **Colorize input placeholder**. Источник: _input-placeholder-colorize_.
 - Добавлена разметка, стилизация и логика для сниппета **Hacked Text Effect**. Источник: _hyperlexed-text_.
 - Добавлена разметка, стилизация и логика сниппета **Background video**. Источник: _optimizing-video-backgrounds-css-javascript_.
