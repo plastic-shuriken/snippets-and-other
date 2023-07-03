@@ -1,0 +1,5 @@
+/* Write your own styles here */
+
+.list-item::first-letter {
+  text-transform: capitalize;
+}
