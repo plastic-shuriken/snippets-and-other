@@ -1,3 +1,4 @@
+- Добавлен пример-подсказка про событийному циклу Node.js. Источник: _node-event-loop-tips_.
 - Добавлен комментарий с описанием ограничений при использовании `structuredClone`.
 - Добавлен пример использования `structuredClone`. Источник: _structured-clone_.
 - Добавлена разметка, стилизация и логика для сниппета **Colorize input placeholder**. Источник: _input-placeholder-colorize_.
