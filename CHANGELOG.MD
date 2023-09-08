@@ -1,4 +1,5 @@
-- Добавлен шаблон **custom-event**. Источник: _reactive-patterns/custom-event_
+- Добавлен шаблон _event-target_ и стратегия использования. : _reactive-patterns/event-target_.
+- Добавлен шаблон **custom-event**. Источник: _reactive-patterns/custom-event_.
 - Изменена структура каталога _reactive-patterns_.
 - Изменена структура модуля.
 - Установлены зависимости разработки.

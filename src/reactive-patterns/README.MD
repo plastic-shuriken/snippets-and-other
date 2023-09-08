@@ -2,3 +2,4 @@
 
 1. [Шаблон pub-sub](pub-sub/README.md)
 2. [Шаблон Custom Event](custom-events/README.md)
+3. [Экземпляры кастомных событий — создание подклассов EventTarget](event-target/README.md)

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub-sub": "node src/reactive-patterns/pub-sub.js "
+    "pub-sub": "node src/reactive-patterns/pub-sub/pub-sub.js "
   },
   "keywords": [],
   "author": "",
