@@ -1,3 +1,4 @@
+- Добавлен шаблон "Наблюдатель" (**observer**). Источник: _reactive-patterns/observer_.
 - Добавлен шаблон _event-target_ и стратегия использования. : _reactive-patterns/event-target_.
 - Добавлен шаблон **custom-event**. Источник: _reactive-patterns/custom-event_.
 - Изменена структура каталога _reactive-patterns_.
