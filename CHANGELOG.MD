@@ -1,3 +1,4 @@
+- Добавлен шаблон **proxy**. Источник: _reactive-patterns/proxy_.
 - Добавлен шаблон "Наблюдатель" (**observer**). Источник: _reactive-patterns/observer_.
 - Добавлен шаблон _event-target_ и стратегия использования. : _reactive-patterns/event-target_.
 - Добавлен шаблон **custom-event**. Источник: _reactive-patterns/custom-event_.

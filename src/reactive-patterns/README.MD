@@ -4,3 +4,4 @@
 2. [Шаблон Custom Event](custom-events/README.md)
 3. [Экземпляры кастомных событий — создание подклассов EventTarget](event-target/README.md)
 3. [Шаблон Observer](observer/README.md)
+3. [Шаблон Proxy](proxy/README.md)
