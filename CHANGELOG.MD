@@ -1,3 +1,4 @@
+- Добавлен шаблон **defineProperty**. Источник: _reactive-patterns/define-property_
 - Обновлен файл README event-target (Шаблоны реактивного программирования).
 - Добавлен шаблон **proxy**. Источник: _reactive-patterns/proxy_.
 - Добавлен шаблон "Наблюдатель" (**observer**). Источник: _reactive-patterns/observer_.

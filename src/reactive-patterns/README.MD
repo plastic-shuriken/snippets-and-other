@@ -5,3 +5,4 @@
 3. [Экземпляры кастомных событий — создание подклассов EventTarget](event-target/README.md)
 3. [Шаблон Observer](observer/README.md)
 3. [Шаблон Proxy](proxy/README.md)
+3. [Шаблон defineProperty](define-property/README.md)
