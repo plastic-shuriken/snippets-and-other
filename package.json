@@ -8,7 +8,8 @@
     "pub-sub": "node src/reactive-patterns/pub-sub/pub-sub.js ",
     "observer": "node src/reactive-patterns/observer/index.js",
     "proxy": "node src/reactive-patterns/proxy/index.js",
-    "define-property": "node src/reactive-patterns/define-property/index.js"
+    "define-property": "node src/reactive-patterns/define-property/index.js",
+    "reactive-promise": "node src/reactive-patterns/promise-based-reactivity/index.js"
   },
   "keywords": [],
   "author": "",
