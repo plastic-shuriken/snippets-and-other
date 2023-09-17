@@ -1,3 +1,4 @@
+- В **pattern** добавлен файл README.md.
 - Добавлен шаблон **reactive promise**. Источник: _reactive-patterns/promise-based-reactivity_.
 - Добавлен шаблон **defineProperty**. Источник: _reactive-patterns/define-property_.
 - Обновлен файл README event-target (Шаблоны реактивного программирования).
