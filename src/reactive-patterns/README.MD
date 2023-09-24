@@ -7,3 +7,4 @@
 3. [Шаблон Proxy](proxy/README.md)
 3. [Шаблон defineProperty](define-property/README.md)
 3. [Шаблон Reactive Promise](promise-based-reactivity/README.MD)
+3. [Шаблон Template Literal](template-literal/README.MD)
