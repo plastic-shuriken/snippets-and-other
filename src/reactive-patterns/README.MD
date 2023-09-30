@@ -9,3 +9,4 @@
 3. [Шаблон Reactive Promise](promise-based-reactivity/README.MD)
 3. [Шаблон Template Literal](template-literal/README.MD)
 3. [Реактивные атрибуты Web Components](web-components/README.MD)
+3. [Шаблон Intersection Observer](intersection-observer/README.MD)

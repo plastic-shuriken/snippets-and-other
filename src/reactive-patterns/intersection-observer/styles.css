@@ -1,0 +1,266 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+  color: #e6e6e6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #dd625e;
+}
+
+a:hover {
+  color: #e58480;
+}
+
+.s-wrap {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.s-vflex,
+.s-vflex-outer {
+  display: flex;
+  flex-direction: column;
+}
+
+.s-vflex-outer {
+  flex: 1 1 auto;
+  padding: 20px;
+  min-height: 325px;
+  position: relative;
+  z-index: 5;
+  background: radial-gradient(circle at left, rgba(0, 0, 0, 0.6) 0%, #000 25%);
+}
+
+.s-vflex-inner {
+  flex: 1 1 auto;
+}
+
+.MediaList {
+  list-style: none;
+  list-style-image: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.MediaItem {
+  color: #e6e6e6;
+  background: #181818;
+  margin: 0 0 28px;
+  padding-left: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: padding 0.3s;
+}
+
+.MediaItem .thumbnail img {
+  height: 100%;
+  opacity: 0.5;
+  width: auto;
+  transition: opacity 0.3s;
+}
+
+.MediaItem:hover .thumbnail img {
+  opacity: 1;
+}
+
+.MediaItem:first-child {
+  margin-top: 0;
+}
+
+.MediaItem .title {
+  font-weight: normal;
+  margin: 0 0 5px;
+}
+
+.MediaItem .thumbnail-wrap {
+  overflow: hidden;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MediaItem {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.MediaItem a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.MediaItem .meta {
+  color: #8a8a8a;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.Instructor {
+  min-height: 80px;
+  position: relative;
+  padding-left: 95px;
+}
+
+.Instructor a {
+  float: left;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Instructor .porthole {
+  border-top: 2px solid #111;
+  border-left: 2px solid #111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #111;
+  border-radius: 40px;
+  height: 80px;
+  overflow: hidden;
+  width: 80px;
+  z-index: 1;
+}
+
+.Instructor .name {
+  padding-top: 15px;
+  color: #e6e6e6;
+  font-size: 18px;
+}
+
+.Instructor .organization {
+  color: #8a8a8a;
+  font-size: 16px;
+}
+
+.Button {
+  background: #c94f17;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  font-weight: normal;
+  line-height: 1.25;
+  padding: 10px 20px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.ButtonSmall {
+  font-size: 14px;
+  padding: 10px 20px;
+  margin: 10px 0 0;
+}
+
+.ButtonRed {
+  background: #c02d28;
+}
+
+.Button:hover {
+  background: #e7682e;
+  color: #fff;
+}
+
+.ButtonRed:hover {
+  background: #d43530;
+  color: #fff;
+}
+
+@media (min-width: 500px) {
+  .MediaListAsBlocks .MediaItem {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .MediaListAsBlocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .MediaListAsBlocks .MediaItem {
+    width: 48.5%;
+  }
+  .MediaListAsBlocks .MediaItem .Button {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .MediaListAsBlocks .MediaItem .Button {
+    display: inline-block;
+    margin-right: 5px;
+  }
+}
+
+.drag-handle {
+  display: none;
+}
+
+.MediaItem {
+  transition-property: all;
+  transition-duration: 0.3s;
+  perspective: 400px;
+  opacity: 0;
+}
+
+.MediaItem.animate-in {
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  perspective: 1000px;
+  opacity: 1;
+  animation-name: flip-in;
+}
+
+.MediaItem.animate-in:nth-child(even) {
+  animation-name: flip-in-reverse;
+}
+
+@keyframes flip-in {
+  0% {
+    opacity: 0;
+    transform: rotateY(180deg) rotateX(10deg) rotateZ(20deg);
+    transform-origin: 0% 50%;
+  }
+
+  25% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateY(0) rotateX(0) rotateZ(0);
+  }
+}
+
+@keyframes flip-in-reverse {
+  0% {
+    opacity: 0;
+    transform: rotateY(-180deg) rotateX(-10deg) rotateZ(-20deg);
+    transform-origin: 50% 0%;
+  }
+
+  25% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateY(0) rotateX(0) rotateZ(0);
+  }
+}
