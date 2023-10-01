@@ -10,3 +10,4 @@
 3. [Шаблон Template Literal](template-literal/README.MD)
 3. [Реактивные атрибуты Web Components](web-components/README.MD)
 3. [Шаблон Intersection Observer](intersection-observer/README.MD)
+3. [Шаблон Request Animation Frame](request-animation-frame/README.MD)

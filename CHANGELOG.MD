@@ -1,3 +1,4 @@
+- Добавлен шаблон  **request animation frame**. Источник: _reactive-patterns/request-animation-frame_.
 - Добавлен шаблон  **intersection observer**. Источник: _reactive-patterns/intersection-observer_.
 - Добавлен шаблон  **web components**. Источник: _reactive-patterns/web-components_.
 - Добавлен шаблон  **template literal**. Источник: _reactive-patterns/template-literal_.
