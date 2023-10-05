@@ -11,3 +11,4 @@
 3. [Реактивные атрибуты Web Components](web-components/README.MD)
 3. [Шаблон Intersection Observer](intersection-observer/README.MD)
 3. [Шаблон Request Animation Frame](request-animation-frame/README.MD)
+3. [Шаблон Web Animations](web-animations/README.MD)
