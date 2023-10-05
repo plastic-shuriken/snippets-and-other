@@ -1,0 +1,21 @@
+:root {
+  --percentage: 100;
+}
+
+body {
+  height: 400px;
+}
+
+.bar {
+  width: calc(100% / 4 - 10px);
+  height: calc(var(--percentage) * 1%);
+  box-sizing: border-box;
+  background-color: #6d93db;
+  margin-right: 10px;
+  position: relative;
+  transition: height 1s ease-in-out;
+  color: #111;
+  text-align: center;
+  padding-top: 24px;
+  font-size: 64px;
+}
