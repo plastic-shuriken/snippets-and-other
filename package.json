@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "npx jest",
     "pub-sub": "node src/reactive-patterns/pub-sub/pub-sub.js ",
     "observer": "node src/reactive-patterns/observer/index.js",
     "proxy": "node src/reactive-patterns/proxy/index.js",
@@ -15,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.7.0",
     "prettier": "2.6.2"
   }
 }

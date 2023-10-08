@@ -1,3 +1,4 @@
+- Добавлен алгоритм **fibonacci numbers**. Источник: _algorithms/fibonacci-number_.
 - Добавлен шаблон **css reactivity**. Источник: _reactive-patterns/css-reactivity_.
 - Добавлен шаблон **web animations**. Источник: _reactive-patterns/web-animations_.
 - Добавлен шаблон **request animation frame**. Источник: _reactive-patterns/request-animation-frame_.
