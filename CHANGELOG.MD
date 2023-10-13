@@ -1,3 +1,4 @@
+- Добавлены **дорожные карты** в раздел _career-development_. Источник: _career-development/roadmaps_.
 - Добавлен css-tip **placeholder-truncation**. Источник: _ui-tips/placeholder-truncation_.
 - Добавлен алгоритм **fibonacci numbers**. Источник: _algorithms/fibonacci-number_.
 - Добавлен шаблон **css reactivity**. Источник: _reactive-patterns/css-reactivity_.
