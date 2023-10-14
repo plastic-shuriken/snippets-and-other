@@ -1,3 +1,4 @@
+- Добавлены **сборщики пакетов** в раздел _developer-tools_. Источник: _src/developer-tools/bandlers_.
 - Добавлены **дорожные карты** в раздел _career-development_. Источник: _career-development/roadmaps_.
 - Добавлен css-tip **placeholder-truncation**. Источник: _ui-tips/placeholder-truncation_.
 - Добавлен алгоритм **fibonacci numbers**. Источник: _algorithms/fibonacci-number_.
