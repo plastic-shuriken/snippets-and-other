@@ -1,3 +1,5 @@
+- Добавлен сниппет **асинхронного контекста** в раздел _code-snippets_. Источник: _src/code-snippets/async-context_.
+- Добавлен каталог _code-snippets_.
 - Добавлены **сборщики пакетов** в раздел _developer-tools_. Источник: _src/developer-tools/bundlers_.
 - Добавлены **дорожные карты** в раздел _career-development_. Источник: _career-development/roadmaps_.
 - Добавлен css-tip **placeholder-truncation**. Источник: _ui-tips/placeholder-truncation_.
