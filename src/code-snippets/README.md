@@ -3,3 +3,4 @@
 [Главная](../README.md)
 
 - [Async context](./async-context/README.md)
+- [Определение долгого нажатия (long press)](./long-press-detection/my-long-press/README.md)
