@@ -1,0 +1,20 @@
+html {
+  font-size: 10px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > h1 {
+  padding: 3.75rem;
+  font-size: 6.25rem;
+  color: #c75064;
+  border: 1.5rem solid #ddc8cb;
+  border-radius: 2rem;
+  rotate: 5deg;
+}
