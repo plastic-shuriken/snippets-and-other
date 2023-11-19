@@ -1,3 +1,4 @@
+- Добавлен сниппет **Операторы вычисления диапазона media queries** в раздел _code-snippets_. Источник: _src/code-snippets/media-query-operators/_.
 - Добавлено форматирование в index.js custom-events.
 - Добавлен сниппет **кастомизация вывода JSON.stringify** в раздел _code-snippets_. Источник: _src/code-snippets/json-stringify-customize/_.
 - Добавлен сниппет **обнаружения длительного нажатия** в раздел _code-snippets_. Источник: _src/code-snippets/long-press-detection\my-long-press_.
