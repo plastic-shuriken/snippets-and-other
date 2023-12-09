@@ -1,3 +1,4 @@
+- Добавлен сниппет **CSS переменные: calc** в раздел _code-snippets_. Источник: _src/code-snippets/css-variables-calc_.
 - Добавлен сниппет **Операторы вычисления диапазона media queries** в раздел _code-snippets_. Источник: _src/code-snippets/media-query-operators/_.
 - Добавлено форматирование в index.js custom-events.
 - Добавлен сниппет **кастомизация вывода JSON.stringify** в раздел _code-snippets_. Источник: _src/code-snippets/json-stringify-customize/_.
