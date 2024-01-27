@@ -1,3 +1,5 @@
+- Добавлен сниппет вычисления ширины блока. Источник: _src/code-snippets/css-tricks/width-max_.
+- Добавлен раздел **CSS Tricks**. Источник: _src/code-snippets/css-tricks_
 - Добавлен сниппет **CSS переменные: calc** в раздел _code-snippets_. Источник: _src/code-snippets/css-variables-calc_.
 - Добавлен сниппет **Операторы вычисления диапазона media queries** в раздел _code-snippets_. Источник: _src/code-snippets/media-query-operators/_.
 - Добавлено форматирование в index.js custom-events.

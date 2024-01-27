@@ -7,3 +7,4 @@
 - [Кастомизация вывода JSON.stringify](./json-stringify-customize/README.md)
 - [Операторы вычисления диапазона media queries](./media-query-operators/README.MD)
 - [CSS переменные: calc](./css-variables-calc/README.md)
+- [CSS трюки](./css-tricks/README.md)
