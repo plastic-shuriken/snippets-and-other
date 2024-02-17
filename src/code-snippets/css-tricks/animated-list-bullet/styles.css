@@ -1,0 +1,53 @@
+.container {
+  width: min(800px, 80vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 16px 0;
+  background-color: aliceblue;
+}
+
+ul {
+  list-style: disc;
+  list-style-type: disc;
+}
+
+ul li {
+  padding-bottom: 6px;
+}
+
+ul li:last-child {
+  padding-bottom: 0;
+}
+
+@keyframes marker-animation {
+  0% {
+    color: transparent;
+  }
+
+  10% {
+    color: lightgreen;
+  }
+}
+
+ul li::marker {
+  color: lightgreen;
+  animation: marker-animation 5s ease-out backwards;
+}
+
+ul li:nth-child(1)::marker {
+  animation-delay: 1s;
+}
+
+ul li:nth-child(2)::marker {
+  animation-delay: 2s;
+}
+
+ul li:nth-child(3)::marker {
+  animation-delay: 3s;
+}
+
+ul li:nth-child(4)::marker {
+  animation-delay: 4s;
+}
