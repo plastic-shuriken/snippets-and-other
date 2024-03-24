@@ -1,4 +1,5 @@
-- Добавлен сниппет **Анимированные маркеры списка** в раздел **css-tricks**. Источник: _src/code-snippets/css-tricks/animated-list-bullet_
+- Добавлен сниппет **Автоматическое воспроизведение/остановка видео** в раздел **code-snippets**. Источник: _src/code-snippets/play-stop-video_.
+- Добавлен сниппет **Анимированные маркеры списка** в раздел **css-tricks**. Источник: _src/code-snippets/css-tricks/animated-list-bullet_.
 - Добавлен сниппет вычисления ширины блока. Источник: _src/code-snippets/css-tricks/width-max_.
 - Добавлен раздел **CSS Tricks**. Источник: _src/code-snippets/css-tricks_
 - Добавлен сниппет **CSS переменные: calc** в раздел _code-snippets_. Источник: _src/code-snippets/css-variables-calc_.
