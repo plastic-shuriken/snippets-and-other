@@ -7,3 +7,4 @@
 
 - [Функция max в свойстве width](./width-max/README.md)
 - [Анимированные маркеры списка](./animated-list-bullet/README.md)
+- [Скругление углов](./circular-corners/README.md)

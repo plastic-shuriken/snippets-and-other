@@ -1,0 +1,22 @@
+body {
+  padding: 16px;
+  background-color: black;
+  color: #d1d1e6;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #fac642;
+  resize: both;
+  overflow: auto;
+  margin-bottom: 32px;
+}
+
+.box.using-vmax {
+  border-radius: 100vmax;
+}
+
+.box.using-infinity {
+  border-radius: calc(Infinity * 1px);
+}

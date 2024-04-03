@@ -1,3 +1,4 @@
+- Добавлен сниппет **Скругление углов** в раздел **css-tricks**. Источник: _src/code-snippets/css-tricks/circular-corners_.
 - Добавлен сниппет **Автоматическое воспроизведение/остановка видео** в раздел **code-snippets**. Источник: _src/code-snippets/play-stop-video_.
 - Добавлен сниппет **Анимированные маркеры списка** в раздел **css-tricks**. Источник: _src/code-snippets/css-tricks/animated-list-bullet_.
 - Добавлен сниппет вычисления ширины блока. Источник: _src/code-snippets/css-tricks/width-max_.
