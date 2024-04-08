@@ -1,3 +1,4 @@
+- Добавлен раздел **useful-links** в раздел **career-development** и ссылка на story book. Источник: _src/career-development/useful-links_.
 - Добавлен сниппет **Скругление углов** в раздел **css-tricks**. Источник: _src/code-snippets/css-tricks/circular-corners_.
 - Добавлен сниппет **Автоматическое воспроизведение/остановка видео** в раздел **code-snippets**. Источник: _src/code-snippets/play-stop-video_.
 - Добавлен сниппет **Анимированные маркеры списка** в раздел **css-tricks**. Источник: _src/code-snippets/css-tricks/animated-list-bullet_.
