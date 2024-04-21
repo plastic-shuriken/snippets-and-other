@@ -1,0 +1,15 @@
+# Шаблоны реактивного программирования
+
+1. [Шаблон pub-sub](pub-sub/README.md)
+2. [Шаблон Custom Event](custom-events/README.md)
+3. [Экземпляры кастомных событий — создание подклассов EventTarget](event-target/README.md)
+4. [Шаблон Observer](observer/README.md)
+5. [Шаблон Proxy](proxy/README.md)
+6. [Шаблон defineProperty](define-property/README.md)
+7. [Шаблон Reactive Promise](promise-based-reactivity/README.MD)
+8. [Шаблон Template Literal](template-literal/README.MD)
+9. [Реактивные атрибуты Web Components](web-components/README.MD)
+10. [Шаблон Intersection Observer](intersection-observer/README.MD)
+11. [Шаблон Request Animation Frame](request-animation-frame/README.MD)
+12. [Шаблон Web Animations](web-animations/README.MD)
+13. [Шаблон CSS Reactivity](css-reactivity/README.MD)

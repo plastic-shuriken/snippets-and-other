@@ -1,3 +1,43 @@
+- Добавлен раздел **useful-links** в раздел **career-development** и ссылка на story book. Источник: _src/career-development/useful-links_.
+- Добавлен сниппет **Скругление углов** в раздел **css-tricks**. Источник: _src/code-snippets/css-tricks/circular-corners_.
+- Добавлен сниппет **Автоматическое воспроизведение/остановка видео** в раздел **code-snippets**. Источник: _src/code-snippets/play-stop-video_.
+- Добавлен сниппет **Анимированные маркеры списка** в раздел **css-tricks**. Источник: _src/code-snippets/css-tricks/animated-list-bullet_.
+- Добавлен сниппет вычисления ширины блока. Источник: _src/code-snippets/css-tricks/width-max_.
+- Добавлен раздел **CSS Tricks**. Источник: _src/code-snippets/css-tricks_
+- Добавлен сниппет **CSS переменные: calc** в раздел _code-snippets_. Источник: _src/code-snippets/css-variables-calc_.
+- Добавлен сниппет **Операторы вычисления диапазона media queries** в раздел _code-snippets_. Источник: _src/code-snippets/media-query-operators/_.
+- Добавлено форматирование в index.js custom-events.
+- Добавлен сниппет **кастомизация вывода JSON.stringify** в раздел _code-snippets_. Источник: _src/code-snippets/json-stringify-customize/_.
+- Добавлен сниппет **обнаружения длительного нажатия** в раздел _code-snippets_. Источник: _src/code-snippets/long-press-detection\my-long-press_.
+- Добавлен сниппет **асинхронного контекста** в раздел _code-snippets_. Источник: _src/code-snippets/async-context_.
+- Добавлен каталог _code-snippets_.
+- Добавлены **сборщики пакетов** в раздел _developer-tools_. Источник: _src/developer-tools/bundlers_.
+- Добавлены **дорожные карты** в раздел _career-development_. Источник: _career-development/roadmaps_.
+- Добавлен css-tip **placeholder-truncation**. Источник: _ui-tips/placeholder-truncation_.
+- Добавлен алгоритм **fibonacci numbers**. Источник: _algorithms/fibonacci-number_.
+- Добавлен шаблон **css reactivity**. Источник: _reactive-patterns/css-reactivity_.
+- Добавлен шаблон **web animations**. Источник: _reactive-patterns/web-animations_.
+- Добавлен шаблон **request animation frame**. Источник: _reactive-patterns/request-animation-frame_.
+- Добавлен шаблон **intersection observer**. Источник: _reactive-patterns/intersection-observer_.
+- Добавлен шаблон **web components**. Источник: _reactive-patterns/web-components_.
+- Добавлен шаблон **template literal**. Источник: _reactive-patterns/template-literal_.
+- В **pattern** добавлен файл README.md.
+- Добавлен шаблон **reactive promise**. Источник: _reactive-patterns/promise-based-reactivity_.
+- Добавлен шаблон **defineProperty**. Источник: _reactive-patterns/define-property_.
+- Обновлен файл README event-target (Шаблоны реактивного программирования).
+- Добавлен шаблон **proxy**. Источник: _reactive-patterns/proxy_.
+- Добавлен шаблон "Наблюдатель" (**observer**). Источник: _reactive-patterns/observer_.
+- Добавлен шаблон _event-target_ и стратегия использования. : _reactive-patterns/event-target_.
+- Добавлен шаблон **custom-event**. Источник: _reactive-patterns/custom-event_.
+- Изменена структура каталога _reactive-patterns_.
+- Изменена структура модуля.
+- Установлены зависимости разработки.
+- Инициализирован npm модуль.
+- Добавлена типизированная функция мемоизации. Источник: _typed-memoize-util-function_.
+- Добавлен шаблон реактивного программирования: **PubSub**. Источник: _reactive-patterns_.
+- Добавлена разметка и стили для сниппета **Gradient rounded border**. Источник: _gradient-rounded-border_.
+- Добавлен небольшой набор трюков для работы с инструментами разработчика в разных браузерах. Источник: _dev-tools-tips_.
+- Добавлен пример-подсказка про событийному циклу Node.js. Источник: _node-event-loop-tips_.
 - Добавлен комментарий с описанием ограничений при использовании `structuredClone`.
 - Добавлен пример использования `structuredClone`. Источник: _structured-clone_.
 - Добавлена разметка, стилизация и логика для сниппета **Colorize input placeholder**. Источник: _input-placeholder-colorize_.

@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: hsl(0deg 0% 92%);
+}
+
+article {
+  background: white;
+  height: 200px;
+  box-shadow: 0px 2px 16px hsla(0deg 0% 0% / 0.2);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* min-width: 600px; */
+}
+
+main {
+  --spacing: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing);
+  padding: var(--spacing);
+}
+
+article {
+  border-radius: calc(var(--spacing) / 2);
+  padding: var(--spacing);
+}
+
+/* @media screen and (min-width: 350px) {
+  main {
+    --spacing: 16px;
+  }
+} */
+
+@media screen and (width >= 350px) {
+  main {
+    --spacing: 16px;
+  }
+}
+
+/* @media screen and (min-width: 500px) {
+  main {
+    --spacing: 32px;
+  }
+} */
+
+@media screen and (width >= 500px) {
+  main {
+    --spacing: 32px;
+  }
+}
+
+/* color-palette styles */
+
+:root {
+  --red-hue: 0deg;
+  --intense: 100% 50%;
+
+  --red: hsl(var(--red-hue) var(--intense));
+  --orange: hsl(calc(var(--red-hue) + 20deg) var(--intense));
+  --yellow: hsl(calc(var(--red-hue) + 40deg) var(--intense));
+  --pinkred: hsl(calc(var(--red-hue) - 20deg) var(--intense));
+  --pink: hsl(calc(var(--red-hue) - 40deg) var(--intense));
+}
+
+.row {
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+}
+
+.demo-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
