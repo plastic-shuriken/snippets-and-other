@@ -1,0 +1,45 @@
+body {
+  padding: 16px;
+}
+
+.card {
+  width: max-content;
+  padding: 16px;
+  background-color: rgb(44, 44, 44);
+  color: #d1d1e6;
+  border-radius: 16px;
+  border: 1px solid #020202;
+}
+
+input {
+  background-color: #1b1c23;
+  border: 1px solid #2e3252;
+  color: #d1d1e6;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+input:focus {
+  outline: 1px solid deeppink;
+}
+
+article {
+  margin: 16px 0;
+  border: 1px solid #3f4257;
+  border-radius: 2px;
+  padding: 16px;
+  width: max-content;
+}
+
+.text {
+  margin: 16px;
+}
+
+article h2 {
+  margin: 0;
+}
+
+article[inert] {
+  opacity: 0.6;
+}
