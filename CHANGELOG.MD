@@ -1,3 +1,4 @@
+- Добавлен пример использования атрибуте `inert` в раздел **ui-tips**. Источник: _src/ui-tips/inert-attribute_.
 - Добавлен раздел **useful-links** в раздел **career-development** и ссылка на story book. Источник: _src/career-development/useful-links_.
 - Добавлен сниппет **Скругление углов** в раздел **css-tricks**. Источник: _src/code-snippets/css-tricks/circular-corners_.
 - Добавлен сниппет **Автоматическое воспроизведение/остановка видео** в раздел **code-snippets**. Источник: _src/code-snippets/play-stop-video_.
